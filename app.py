@@ -9,7 +9,7 @@ client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 # GitHub info
 GITHUB_USER = "hellomaxlee"
-GITHUB_REPO = "math356"
+GITHUB_REPO = "oitproject"
 BRANCH = "main"
 BASE_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{BRANCH}"
 
